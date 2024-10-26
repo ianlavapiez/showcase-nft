@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Psychic"
+    }
+  ],
+  "description": "A common egg that has the ability of psychic.",
+  "image": "https://gateway.pinata.cloud/ipfs/Qmbpw4qwp4m1hi8PDqXUTKGaauFAgB22DcbVBdcJXJdWR5",
+  "name": "Psychic - Common"
+}

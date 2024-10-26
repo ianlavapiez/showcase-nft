@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Grass"
+    }
+  ],
+  "description": "A common egg that has the ability of grass.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmUUrWgfNZAKT3dzSa3FmbkuhSpzJo7W7KnscYRWYJS3Kd",
+  "name": "Grass - Common"
+}

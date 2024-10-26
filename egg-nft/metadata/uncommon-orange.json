@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Fighting"
+    }
+  ],
+  "description": "An uncommon egg that has the ability of fighting.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmU9TWRzTGuNmEcojXm7N1bEW2j8vmDm1JhGrNmbifreiD",
+  "name": "Fighting - Uncommon"
+}

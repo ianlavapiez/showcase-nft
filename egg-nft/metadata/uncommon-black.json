@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Dark"
+    }
+  ],
+  "description": "An uncommon egg that has the ability of darkness.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmU9UjQyBh5HTdm3iXFhKusZrh4fuo22y3uh9nW2hdc3Xa",
+  "name": "Dark - Uncommon"
+}

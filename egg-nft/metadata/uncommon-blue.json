@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Water"
+    }
+  ],
+  "description": "An uncommon egg that has the ability of water.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRN4ius3wpaHGhCUNCQFkWoBf4ktWA9ryXHgxSHojaF7m",
+  "name": "Water - Uncommon"
+}

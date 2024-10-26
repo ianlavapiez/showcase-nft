@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Super Rare"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Fighting"
+    }
+  ],
+  "description": "A super rare egg that has the ability of fighting.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmZshbQt6nSyJeHxmrF4qwvJcwrEz7qqx5r1n4KWkcW2Hb",
+  "name": "Fighting - Super Rare"
+}

@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Grass"
+    }
+  ],
+  "description": "A rare egg that has the ability of grass.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmbP5GgAfGnFvq8kpAiaSF5gvUr2QtdyZNvup9Sa7gahBc",
+  "name": "Grass - Rare"
+}

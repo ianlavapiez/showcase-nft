@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Super Rare"
+    },
+    {
+      "trait_type": "Ability",
+      "value": "Dark"
+    }
+  ],
+  "description": "A super rare egg that has the ability of darkness.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmU9yfgf7hkovQbCYaLgRoBvgWfaLBuvPkfGyaVnFg2RfL",
+  "name": "Dark - Super Rare"
+}
