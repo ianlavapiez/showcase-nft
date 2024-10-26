@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.5.1",
     "@metamask/providers": "^18.1.0",
     "alchemy-sdk": "^3.4.6",
     "antd": "^5.21.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "styled-components": "^6.1.13",
     "viem": "^2.21.35"
   },
   "devDependencies": {

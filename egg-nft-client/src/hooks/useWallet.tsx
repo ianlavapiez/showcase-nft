@@ -1,10 +1,12 @@
 import { useState } from "react";
+import notification from "antd/es/notification";
 import { createWalletClient, custom, UserRejectedRequestError } from "viem";
 import { sepolia } from "viem/chains";
 
 export const useWallet = () => {
+  const [api, contextHolder] = notification.useNotification();
   const [account, setAccount] = useState<string | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const [isConnected, setIsConnected] = useState(false);
 
   const connectWallet = async () => {
     if (typeof window !== "undefined" && window.ethereum) {
@@ -16,16 +18,25 @@ export const useWallet = () => {
 
         const [address] = await walletClient.requestAddresses();
         setAccount(address);
-        setError(null);
+        setIsConnected(true);
+        api.success({
+          message: "Connection Success!",
+          description: "Successfully connected your metamask account.",
+        });
       } catch (err) {
-        const error = err as UserRejectedRequestError;
-
-        setError(error.details || "Failed to connect to Metamask.");
+        const userError = err as UserRejectedRequestError;
+        setIsConnected(false);
+        const error = userError.details || "Failed to connect to Metamask.";
+        api.error({ message: "Connection Error!", description: error });
       }
     } else {
-      setError("Metamask is not installed.");
+      setIsConnected(false);
+      api.error({
+        message: "Connection Error!",
+        description: "Metamask is not installed.",
+      });
     }
   };
 
-  return { account, connectWallet, error };
+  return { account, connectWallet, contextHolder, isConnected };
 };
